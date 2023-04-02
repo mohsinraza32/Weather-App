@@ -3,7 +3,7 @@ function getWeather(){
     let cityName = document.getElementById("cityName").value;
 
     // da26a1722e2f4859a1863343233103
-axios.get(`http://api.weatherapi.com/v1/current.json?key= da26a1722e2f4859a1863343233103&q=${cityName}&aqi=no`)
+axios.get(`https://api.weatherapi.com/v1/current.json?key= da26a1722e2f4859a1863343233103&q=${cityName}&aqi=no`)
 .then(function (response) {
 // handle success
 
