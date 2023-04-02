@@ -4,32 +4,62 @@
     box-sizing: border-box;
 }
 .main{
-    background-image: url(./images/backimg.avif);
+    background-image: url(./images/back1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     text-align: center;
     font-family: sans-serif;
+    background-position: top;
 }
 h1{
     padding: 20px 0px 20px 0px;
     color: red;
+    font-size: 50px;
 }
 form > label{
     color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+.input-field{
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.input-field:focus{
+    background-color:white;
 }
 .btn{
    background-color:blueviolet;
    color: white;
    cursor: pointer;
    border: 2px solid purple;
+   padding: 10px;
+   vertical-align: top;
+    
     
 }
 .btn:hover{
     background-color:crimson;
 }
 .mainresult{
-    color: black;
-    padding: 30px 0px;
+    color:darkblue;
+    padding: 50px 0px;
+    font-size: 30px;
+    width: 50vh;
+    background-color:cadetblue;
+    opacity: 0.7;
+    text-align: center;
+    height: 60vh;
+    margin: 60px auto;
+    border-radius: 20px;
+    line-height: 50px;
+    font-weight: 700;
+    display: none;
     
 }
